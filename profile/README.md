@@ -34,11 +34,12 @@ Button::widget()
 
 ## 🌐 Part of the Ecosystem
 
-Maintained by the core team of(https://github.com/yii2-extensions) and [PHP Forge](https://github.com/php-forge).
+Maintained by the core team of [yii2-framework](https://github.com/yii2-framework) and [yii2-extensions](https://github.com/yii2-extensions).
 
 -----
 
 <div align="center">
-  <p>Maintaining this ecosystem requires dedicated engineering effort. Help us keep Yii2 competitive against Laravel and Symfony.</p> 
-  <a href="https://github.com/sponsors/terabytesoftw"> <img src="https://img.shields.io/badge/Sponsor-Click%20Here-pink?style=for-the-badge&logo=github-sponsors" height="40" /></a>
+  <a href="https://github.com/sponsors/terabytesoftw">
+    <img src="https://img.shields.io/badge/Sponsor-UI%20Awesome-pink?style=for-the-badge&logo=github-sponsors" />
+  </a>
 </div>
