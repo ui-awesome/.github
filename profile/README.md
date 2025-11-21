@@ -29,7 +29,7 @@ UI Awesome offers an object-oriented, fluent interface to generate complex UI co
 Button::widget()
     ->label('Subscribe')
     ->class('bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded')
-    render();
+    ->render();
 ```
 
 ## 🌐 Part of the Ecosystem
