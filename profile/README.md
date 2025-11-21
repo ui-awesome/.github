@@ -26,19 +26,19 @@ UI Awesome offers an object-oriented, fluent interface to generate complex UI co
 
 // Create a Flowbite Button in pure PHP
 ```php
-<?= 
-    Button::widget()
-        ->label('Subscribe')
-        ->class('bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded');
-?>
+Button::widget()
+    ->label('Subscribe')
+    ->class('bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded')
+    render();
 ```
 
 ## 🌐 Part of the Ecosystem
+
 Maintained by the core team of(https://github.com/yii2-extensions) and [PHP Forge](https://github.com/php-forge).
 
-<a href="https://github.
 -----
-com/sponsors/terabytesoftw">
-  <img src="https://img.shields.io/badge/Sponsor-UI%20Awesome-pink?style=for-the-badge&logo=github-sponsors" />
-</a>
-```
+
+<div align="center">
+  <p>Maintaining this ecosystem requires dedicated engineering effort. Help us keep Yii2 competitive against Laravel and Symfony.</p> 
+  <a href="https://github.com/sponsors/terabytesoftw"> <img src="https://img.shields.io/badge/Sponsor-Click%20Here-pink?style=for-the-badge&logo=github-sponsors" height="40" /></a>
+</div>
