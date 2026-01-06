@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > ⚠️ DON'T CREATE SECURITY ISSUE here, use [this form](https://github.com/ui-awesome/.github/security/advisories/new) instead.
+        > ⚠️ DON'T CREATE SECURITY ISSUE here, use [this form](https://github.com/ui-awesome/<project-name>/security/advisories/new) instead.
   - type: textarea
     id: description
     attributes:
