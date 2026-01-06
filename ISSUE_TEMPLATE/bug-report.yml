@@ -1,4 +1,3 @@
-
 ---
 name: 🐛 Bug Report
 description: Let us know about problem
@@ -11,8 +10,7 @@ body:
     id: description
     attributes:
       label: Description
-      description:
-        Provide a detailed description of the issue. Include all relevant information to help us understand and reproduce the problem.
+      description: Provide a detailed description of the issue. Include all relevant information to help us understand and reproduce the problem.
     validations:
       required: true
   - type: input
@@ -21,9 +19,13 @@ body:
       label: Package version
       description: Specify the exact package version you're using
       placeholder: "0.1.0"
+    validations:
+      required: true
   - type: input
     id: php-version
     attributes:
       label: PHP version
       description: Specify the exact PHP version you're using (run `php -v` to check)
       placeholder: "8.5.0"
+    validations:
+      required: true

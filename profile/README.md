@@ -40,7 +40,7 @@ Maintained by the core team of [yii2-framework](https://github.com/yii2-framewor
 ---
 
 <div align="center">
-  <a href="https://github.com/sponsors/terabytesoftw"> 
+  <a href="https://github.com/sponsors/terabytesoftw">
     <img src="https://img.shields.io/badge/Sponsor-Click%20Here-pink?style=for-the-badge&logo=github-sponsors" alt="Sponsor UI Awesome on GitHub" height="40" />
   </a>
 </div>

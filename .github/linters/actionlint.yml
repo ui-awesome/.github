@@ -1,6 +1,6 @@
 ---
 paths:
-  .github/workflows/**/*.yml:
+  .github/workflows/**/*.{yml,yaml}:
     ignore:
       - '"pull_request" section is alias node but mapping node is expected'
       - '"push" section is alias node but mapping node is expected'
