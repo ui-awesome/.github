@@ -7,7 +7,7 @@
 Use the GitHub Security Advisories feature in the affected repository to report vulnerabilities privately:
 
 1. Navigate to the affected repository (for example, `https://github.com/ui-awesome/repo-name`, replacing `repo-name`
-with the affected repository).
+   with the affected repository).
 2. Go to the **Security** tab.
 3. Click **Report a vulnerability**.
 4. Provide a detailed description including steps to reproduce, impact, and any suggested fix.
