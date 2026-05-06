@@ -48,7 +48,6 @@ composer test
 5. Ensure all tests pass and coding standards are met.
 6. Open a pull request against `main` with a clear description of the change.
 
-
 ## Security Vulnerabilities
 
 Do not open public issues for security vulnerabilities. See [SECURITY.md](SECURITY.md) for reporting instructions.
