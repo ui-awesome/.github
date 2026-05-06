@@ -1,4 +1,4 @@
-# Contributing to PHP Forge
+# Contributing to ui-awesome
 
 Thank you for your interest in contributing. Please read this guide before submitting issues or pull requests.
 
@@ -14,8 +14,8 @@ By participating in this project, you agree to abide by the [Code of Conduct](CO
 **Setup:**
 
 ```bash
-git clone https://github.com/ui-awesome/<package>.git
-cd <package>
+git clone https://github.com/ui-awesome/<repository>.git
+cd <repository>
 composer install
 composer test
 ```
