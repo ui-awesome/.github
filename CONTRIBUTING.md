@@ -17,7 +17,7 @@ By participating in this project, you agree to abide by the [Code of Conduct](CO
 git clone https://github.com/ui-awesome/<repository>.git
 cd <repository>
 composer install
-composer test
+composer run
 ```
 
 ## Coding Standards
@@ -33,10 +33,11 @@ All PHP code must follow these standards:
 
 - All tests use **PHPUnit 12+**.
 - Target **100% code coverage** for new code.
-- Run the test suite before submitting a pull request:
+- Run the quality/test scripts defined in the target repository's `composer.json` before submitting a pull request
+  (for example, `test`, `static`, `ecs`, `rector`, or `check-dependencies`):
 
 ```bash
-composer test
+composer run
 ```
 
 ## Pull Request Process
