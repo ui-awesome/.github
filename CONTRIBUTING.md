@@ -34,7 +34,7 @@ All PHP code must follow these standards:
 - All tests use **PHPUnit 12+**.
 - Target **100% code coverage** for new code.
 - Run the quality/test scripts defined in the target repository's `composer.json` before submitting a pull request
-  (for example, `test`, `static`, `ecs`, `rector`, or `check-dependencies`):
+  (`tests`, `static`, `ecs`, `rector`, `check-dependencies`, and `mutation`):
 
 ```bash
 composer run
