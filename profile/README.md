@@ -7,7 +7,7 @@
 
 **UI Awesome** provides the missing link between **PHP backends** and modern **frontend frameworks**.
 
-We build fluid HTML generators and robust component wrappers for **Tailwind CSS** and **Flowbite**.
+We build fluid HTML generators, form field widgets, and framework-agnostic models whose markup fits any CSS framework.
 
 ## 🎨 Why UI Awesome?
 
@@ -15,21 +15,24 @@ Writing raw HTML inside PHP strings is messy and error-prone.
 
 UI Awesome offers an object-oriented, fluent interface to generate complex UI components without leaving your PHP classes.
 
-## 🧩 Component Libraries
+## 🧩 Core Libraries
 
-| Library                                                                       | Description                            | Tech Stack       |
-| :---------------------------------------------------------------------------- | :------------------------------------- | :--------------- |
-| **[HTML5](https://github.com/ui-awesome/html)**                               | Fluid HTML5 tag generation             | `PHP` `HTML5`    |
-| **[Flowbite for PHP](https://github.com/ui-awesome/html-component-flowbite)** | Full Flowbite component implementation | `PHP` `Flowbite` |
+| Library                                                    | Description                                        | Tech Stack           |
+| :--------------------------------------------------------- | :------------------------------------------------- | :------------------- |
+| **[HTML](https://github.com/ui-awesome/html)**             | Fluid, immutable HTML5 tag generation              | `PHP` `HTML5`        |
+| **[HTML Field](https://github.com/ui-awesome/html-field)** | Form fields bound to a model, with label and error | `PHP` `Forms`        |
+| **[Model](https://github.com/ui-awesome/model)**           | Typed model mapping, framework-agnostic            | `PHP` `Data Binding` |
+| **[Form Model](https://github.com/ui-awesome/form-model)** | Form metadata and validation errors                | `PHP` `Validation`   |
 
-## 💻 Usage Example php
-
-// Create a Flowbite Button in pure PHP
+## 💻 Usage Example
 
 ```php
-Button::widget()
-    ->label('Subscribe')
+use UIAwesome\Html\Form\Button;
+
+// Create a styled button in pure PHP.
+echo Button::tag()
     ->class('bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded')
+    ->content('Subscribe')
     ->render();
 ```
 
